@@ -6,9 +6,10 @@ The scope of this project was to access a public RESTFUL API, access the data, a
 
 # Technologies Used
 
-* HTML
-* CSS/Preprocessors
+* HTML5
+* CSS3 & SASS
 * Styled-Components library
+* JavaScript ES6
 * React
 * React Hooks
 * RESTful APIs
