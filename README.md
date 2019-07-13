@@ -8,6 +8,7 @@ The scope of this project was to access a public RESTful API, access the data, a
 
 * HTML5
 * CSS3 & SASS
+* CSS animations
 * Styled-Components library
 * JavaScript ES6
 * React
