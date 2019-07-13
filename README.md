@@ -1,3 +1,17 @@
-##Star Wars: The Characters
+# Star Wars: The Characters
 
-An application by Dave Irwin made with React and React Hooks. This app makes an API call to (SWAPI)[https://swapi.co] for all the provided data. All images are labeled for reuse.
+An fully responsive application created by Dave Irwin and [deployed here](https://star-wars-the-characters.netlify.com).
+
+The scope of this project was to acess a public RESTful API, retrieve and store the data, and display the data in an attractive and interactive user interface. 
+
+## Technologies/Skills Used
+
+* HTML5
+* CSS3 & SASS
+* CSS animations
+* Styled-Components library
+* JavaScript ES6
+* React
+* React Hooks
+* Pagination
+* RESTful APIs
