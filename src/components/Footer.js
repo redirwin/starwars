@@ -11,5 +11,9 @@ const Link = styled.a`
 `;
 
 export default function Footer() {
-  return <Link href="https://github.com/redirwin/starwars">About</Link>;
+  return (
+    <Link href="https://github.com/redirwin/starwars/blob/master/README.md">
+      About
+    </Link>
+  );
 }
