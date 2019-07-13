@@ -11,9 +11,5 @@ const Link = styled.a`
 `;
 
 export default function Footer() {
-  return (
-    <Link href="https://github.com/redirwin/Sprint-Challenge-React-Wars">
-      About
-    </Link>
-  );
+  return <Link href="https://github.com/redirwin/starwars">About</Link>;
 }
