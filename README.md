@@ -12,4 +12,5 @@ The scope of this project was to access a public RESTful API, access the data, a
 * JavaScript ES6
 * React
 * React Hooks
+* Pagination
 * RESTful APIs
