@@ -11,7 +11,6 @@ The scope of this project was to acess a public RESTful API, retrieve and store 
 * CSS animations
 * Styled-Components library
 * JavaScript ES6
-* React
-* React Hooks
+* React w/ hooks
 * Pagination
-* RESTful APIs
+* RESTful API consumption
