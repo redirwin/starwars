@@ -26,6 +26,8 @@ export default function App() {
   );
 }
 
+// styles
+
 const Content = styled.div`
 width: 100%
 max-width: 1200px;
@@ -61,7 +63,7 @@ align-content: center;
   }
 }
 
-/* Safari 4.0 - 8.0 */
+// Safari 4.0 - 8.0
 @-webkit-keyframes fly {
   from {
     width: 10%;
@@ -113,46 +115,6 @@ align-content: center;
     z-index: -1
     right: -5rem;
   }
-
-  .falcon {
-    transform: scaleX(-1); 
-    position: fixed;
-    z-index: -1;  
-    animation-name: fly;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: both;
-  }
-  
-  @keyframes fly {
-    from {
-      width: 10%;
-      top: 4%;
-      left: -10%;
-    }
-    to {
-      width: 70%;
-      top: 20%;
-      left: 15%;   
-    }
-  }
-  
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes fly {
-    from {
-      width: 10%;
-      top: 4%;
-      left: -5%;
-    }
-    to {
-      width: 70%;
-      top: 15%;
-      left: 15%;   
-    }
-  }
-
-
 }
 
 `;

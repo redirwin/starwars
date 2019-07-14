@@ -3,6 +3,17 @@ import styled from "styled-components";
 
 import logo from "../assets/logo.png";
 
+export default function Header() {
+  return (
+    <HeaderContainer>
+      <img src={logo} alt="logo" />
+      <h1>The Characters</h1>
+    </HeaderContainer>
+  );
+}
+
+// styles
+
 const HeaderContainer = styled.header`
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -26,12 +37,3 @@ const HeaderContainer = styled.header`
     }
   }
 `;
-
-export default function Header() {
-  return (
-    <HeaderContainer>
-      <img src={logo} alt="logo" />
-      <h1>The Characters</h1>
-    </HeaderContainer>
-  );
-}

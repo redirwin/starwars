@@ -3,13 +3,6 @@ import styled from "styled-components";
 
 import CharCard from "./CharCard";
 
-const CardsContainer = styled.div`
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-top: 0;
-`;
-
 export default function DisplayChars(props) {
   return (
     <CardsContainer>
@@ -19,3 +12,12 @@ export default function DisplayChars(props) {
     </CardsContainer>
   );
 }
+
+// styles
+
+const CardsContainer = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 0;
+`;
