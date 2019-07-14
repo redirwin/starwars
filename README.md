@@ -2,7 +2,7 @@
 
 An fully responsive application created by Dave Irwin and [deployed here](https://star-wars-the-characters.netlify.com).
 
-The scope of this project was to acess a public RESTful API and consume the data to an attractive and interactive user interface. 
+The scope of this project was to acess a public RESTful API and consume the data into an attractive and interactive user interface. 
 
 ## Technologies/Skills Used
 
